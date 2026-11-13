@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100" fill="none">
+  <!-- Lightning bolt mark -->
+  <g transform="translate(8, 4)">
+    <!-- R letter shape - dark purple -->
+    <path d="M28 8 L28 62 L38 62 L38 42 L52 42 L62 62 L74 62 L62 40 C68 37 72 31 72 24 C72 14 64 8 54 8 Z M38 18 L54 18 C59 18 62 21 62 25 C62 29 59 32 54 32 L38 32 Z" fill="#3b1a78"/>
+    <!-- Lightning bolt overlay - medium purple -->
+    <path d="M44 6 L30 32 L42 32 L28 58 L56 26 L44 26 Z" fill="#8b5cf6"/>
+    <!-- Lightning bolt highlight -->
+    <path d="M46 6 L34 28 L44 28 L32 52 L56 24 L46 24 Z" fill="#a855f7"/>
+  </g>
+  <!-- Text: RankRush -->
+  <text x="82" y="48" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="22" fill="#3b1a78" letter-spacing="-0.5">Rank<tspan fill="#7c3aed">Rush</tspan></text>
+  <!-- Tagline: web sight -->
+  <text x="82" y="66" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="12" fill="#6b7280" letter-spacing="0.5">web sight</text>
+</svg>

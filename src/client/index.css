@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #020617;
+  --surf: #0f172a;
+  --card: #1e293b;
+  --border: rgba(255,255,255,0.05);
+  --borderHov: rgba(255,255,255,0.1);
+  --cyan: #06b6d4;
+  --green: #10b981;
+  --red: #f43f5e;
+  --amber: #f59e0b;
+  --purple: #8b5cf6;
+  --blue: #3b82f6;
+  --text: #f8fafc;
+  --textSec: #94a3b8;
+  --textMuted: #475569;
+}
+
+:root[data-theme="light"] {
+  --bg: #f8fafc;
+  --surf: #ffffff;
+  --card: #ffffff;
+  --border: rgba(0,0,0,0.05);
+  --borderHov: rgba(0,0,0,0.1);
+  --cyan: #0891b2;
+  --green: #059669;
+  --red: #e11d48;
+  --amber: #d97706;
+  --purple: #7c3aed;
+  --blue: #2563eb;
+  --text: #0f172a;
+  --textSec: #475569;
+  --textMuted: #94a3b8;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 12px;
+}
